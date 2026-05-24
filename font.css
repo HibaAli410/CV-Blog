@@ -1,0 +1,46 @@
+.heebo-regular-400{
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:#21243D;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+.heebo-regular-300{
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color:#21243D;
+  margin: 0px;
+  padding: 0px;
+  
+}
+.heebo-bold{
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color:#21243D
+}
+.heebo-bold-s26{
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+  color:#21243D
+}
+.heebo-semibold{
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.heebo-medium{
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  color: #000000;
+}
