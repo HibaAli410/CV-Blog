@@ -5,7 +5,7 @@
     border: 1px solid #EDF7FA;
     border-radius: 2px;
     background-color: #EDF7FA;
-    height: 396px;
+    height: 456px;
 
  
 }
@@ -43,36 +43,56 @@
     display: flex;
      justify-content: center;
     gap: 20px;
+    
 
 }
+ /* Render Post each-side */
 .recentpost > .recentposts > .recentpost-1,
 .recentpost > .recentposts > .recentpost-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 374px;
-    height: 249px;
+    justify-content:space-between;
+    width: 384px;
+    height: 265px;
     background-color: #ffffff;
     border-radius: 4px;
     flex: content; 
     padding-inline-start: 22px;
-    padding-inline-end: 40px;
-    padding-block: 33px;
+    padding-inline-end: 15px;
+    padding-block-end: 33px;
+    padding-block-start: 33px;
     
+}
+.recentpost > .recentposts > .recentpost-1 div:nth-child(1),
+.recentpost > .recentposts > .recentpost-2 div:nth-child(1){
+    width: 374px;
+
+
 }
 .recentpost > .recentposts > .recentpost-1 div:nth-child(2),
 .recentpost > .recentposts > .recentpost-2 div:nth-child(2){
-    width: 281px;
+    width: 275px;
 display: flex;
-justify-content: space-between;
+justify-content: space-between; 
+align-content:baseline;
+font-family: "Heebo", sans-serif;
+
 }
 .recentpost > .recentposts > .recentpost-1 div:nth-child(3),
 .recentpost > .recentposts > .recentpost-2 div:nth-child(3){
-width: 346px;
+width: 348px;
 height: 91px;
 font-size: 16px;
 line-height: auto;
 word-spacing: 2px;
-font-size: 16px;
+font-family: "Heebo", sans-serif;
+}
+.lineBar{
+    font-size:23px;
+    width: 1px;
+    height: 30px;
+    font-weight: lighter;
+    background-color: rgb(5, 6, 6);
+    padding:auto 0px; 
 }
 
