@@ -1,0 +1,27 @@
+#featurework{
+    width: 1156px;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+}
+.featurework1{
+    display: grid;
+    grid-template-columns: 244px 595px;
+    justify-content: space-between;
+    gap: 4px;
+    width: 848px;
+    height: 40px;
+    
+}
+.featurework1 .image {
+    background-image: url(./images/fe_work_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 180px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+}
+.featurework1 details{
+    display: flex;
+    flex-direction: row;
+}
