@@ -1,20 +1,20 @@
 .recentpost{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
     border: 1px solid #EDF7FA;
     border-radius: 2px;
     background-color: #EDF7FA;
-    height: 456px;
+    height: 450px;
+    margin-block: 40px;
 
  
 }
 /*  recent texts and posts */
 .recentpost > .recentpoststext{
-    height: 65px;
+    height: 35px;
 }
 .recentpoststext, .recentposts{
-    width: 963px;
+    width: 864px;
 }
 .recentpost .recentpoststext, .recentposts{
     display: flex;
