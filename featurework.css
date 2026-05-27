@@ -1,14 +1,10 @@
-.feature{
-    height: 100%;
-    display: grid;
-    grid-template-rows: auto auto auto ;
-    
-}
+
 #featurework{
     width: 1156px;
     height: 100%;
     display: flex;
     justify-content:center;
+    
 }
 .featurework1{
     display: grid;
