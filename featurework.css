@@ -1,5 +1,4 @@
-
-#featurework{
+.featurework{
     width: 1156px;
     height: 100%;
     display: flex;
@@ -12,12 +11,15 @@
     justify-content: space-between;
     gap: 18px;
     width: 848px;
-    height: 40px;
+    height:max-content;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #E0E0E0;
     
 }
 .featurework1 .image div{
     width: 246px;
-    height: 180px;
+    height: 201px;
 }
 .featurework1 .image div img{
     width: 100%;
@@ -27,15 +29,15 @@
 .featurework1 .details{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 180px;
-    gap: 20px;
+    /* justify-content: space-between; */
+    height: 201px;
+    gap: 25px;
 }
 .featurework1 .details div:nth-child(1){
     font-size: 30px;
 }
 .featurework1 .details div:nth-child(2){
-    width: 188px;
+    width: 186px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
