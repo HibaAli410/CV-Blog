@@ -51,7 +51,8 @@
 .recentpost > .recentposts > .recentpost-2 {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    /* justify-content:space-between; */
+    gap:24px;
     width: 384px;
     height: 265px;
     background-color: #ffffff;
@@ -59,8 +60,8 @@
     flex: content; 
     padding-inline-start: 22px;
     padding-inline-end: 15px;
-    padding-block-end: 33px;
-    padding-block-start: 33px;
+    padding-block-end: 25px;
+    padding-block-start: 30px;
     
 }
 .recentpost > .recentposts > .recentpost-1 div:nth-child(1),
